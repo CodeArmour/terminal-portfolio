@@ -33,7 +33,7 @@ export default function Navigation() {
           <div className="flex items-center">
             <a href="#" className="flex-shrink-0 flex items-center">
               <Terminal className={`h-8 w-8 ${colors.primary}`} />
-              <span className={`ml-2 text-xl font-bold ${colors.navText}`}>Omar Terminal Portfolio</span>
+              <span className={`ml-5 text-xl font-bold ${colors.navText}`}>O.T.P</span>
             </a>
           </div>
 
