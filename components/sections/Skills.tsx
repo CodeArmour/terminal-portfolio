@@ -64,6 +64,8 @@ export default function Skills() {
         </h2>
 
         <div className="grid md:grid-cols-3 gap-8">
+
+        <FadeInView delay={200} direction="up">
           <div>
             <h3
               className={`text-xl font-semibold mb-4 flex items-center ${colors.text}`}
@@ -86,7 +88,9 @@ export default function Skills() {
               ))}
             </div>
           </div>
+          </FadeInView>
 
+          <FadeInView delay={500} direction="up">
           <div>
             <h3
               className={`text-xl font-semibold mb-4 flex items-center ${colors.text}`}
@@ -109,7 +113,9 @@ export default function Skills() {
               ))}
             </div>
           </div>
+          </FadeInView>
 
+          <FadeInView delay={800} direction="up">
           <div>
             <h3
               className={`text-xl font-semibold mb-4 flex items-center ${colors.text}`}
@@ -132,6 +138,7 @@ export default function Skills() {
               ))}
             </div>
           </div>
+          </FadeInView>
         </div>
         {/* Terminal Skills Explorer */}
         <FadeInView delay={1000} direction="up">
