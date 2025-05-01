@@ -45,7 +45,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className={`text-sm ${colors.secondary}`}>GitHub</p>
-                  <p className={`font-medium ${colors.text}`}>github.com/johndoe</p>
+                  <p className={`font-medium ${colors.text}`}>github.com/Omar</p>
                 </div>
               </a>
 
@@ -78,8 +78,8 @@ export default function Contact() {
                   <Instagram size={20} />
                 </div>
                 <div>
-                  <p className={`text-sm ${colors.secondary}`}>Twitter</p>
-                  <p className={`font-medium ${colors.text}`}>twitter.com/johndoe</p>
+                  <p className={`text-sm ${colors.secondary}`}>Instagram</p>
+                  <p className={`font-medium ${colors.text}`}>Instagram.com/Omar</p>
                 </div>
               </a>
             </div>
