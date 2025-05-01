@@ -39,7 +39,7 @@ export default function Contact() {
                 className={`flex items-center p-4 ${colors.background} rounded-lg hover:shadow-md transition-shadow`}
               >
                 <div
-                  className={`w-10 h-10 rounded-full ${colors.card} flex items-center justify-center mr-4 ${colors.text}`}
+                  className={`w-10 h-10 rounded-full ${colors.card} flex items-center justify-center mr-4 ${colors.primary}`}
                 >
                   <Github size={20} />
                 </div>
