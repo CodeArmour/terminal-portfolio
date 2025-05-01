@@ -59,9 +59,13 @@ export default function Skills() {
   return (
     <section id="skills" className={`py-20 ${colors.background}`}>
       <div className="max-w-4xl mx-auto px-4">
-        <h2 className={`text-3xl font-bold mb-12 text-center ${colors.text}`}>
-          Skills
-        </h2>
+      <FadeInView>
+          <h2 className={`text-3xl font-bold mb-12 text-center ${colors.text}`}>
+            <span className={`${Math.random() > 0.7 ? "animate-glitch" : ""}`} data-text="Skills">
+              Skills
+            </span>
+          </h2>
+        </FadeInView>
 
         <div className="grid md:grid-cols-3 gap-8">
 
