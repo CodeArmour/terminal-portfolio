@@ -601,10 +601,18 @@ async function handleLs(currentPath: string, targetPath?: string): Promise<Comma
   return { output: "Directory not found.", type: "error" }
 }
 
-// Change directory
 function handleCd(currentPath: string, targetPath?: string): CommandResult {
   if (!targetPath) {
     return { output: "", newPath: "/" }
+  }
+
+  // Special case: if we're in a project directory and trying to navigate to another project
+  if (currentPath.startsWith("/projects/") && !targetPath.startsWith("/") && !targetPath.startsWith("..")) {
+    // Check if the target is another project
+    const projectPath = `/projects/${targetPath}`
+    if (isValidPath(projectPath)) {
+      return { output: "", newPath: projectPath }
+    }
   }
 
   const newPath = resolvePath(currentPath, targetPath)
