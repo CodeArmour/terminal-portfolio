@@ -75,15 +75,26 @@ export const portfolioData = {
       date: "2025-01-01",
     },
     {
-      id: "barber-shop",
-      name: "Barber Shop",
+      id: "masar",
+      name: "Masar-Shop",
       description:
-        "Sharp Cuts is a modern, full-stack web application designed for barber shops to manage appointments and for customers to book services online. The application features a clean, responsive design with barber shop-themed styling and animations, providing an intuitive user experience for both customers and administrators.",
+        "Welcome to Masar Shop, a modern online store designed for convenience, control, and a seamless shopping journey. Our user-friendly platform offers a wide variety of products with easy navigation, secure payments, and fast delivery. Experience the future of shopping with Masar Shop, where your satisfaction is our priority.",
       technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Prisma"],
-      demoUrl: "https://barber-shop-henna-psi.vercel.app/",
-      sourceUrl: "https://github.com/CodeArmour/barber-shop",
-      image: "/images/barber-project.png",
-      date: "2024-12-01",
+      demoUrl: "https://masar-marketplace.vercel.app",
+      sourceUrl: "https://github.com/CodeArmour/masar",
+      image: "/images/masar.png",
+      date: "2024-01-01",
+    },
+    {
+      id: "study-quest",
+      name: "Study Quest",
+      description:
+        "Study Quest is a modern web application designed to enhance the learning experience for students. It offers a platform for students to create, share, and discover study materials, including notes, flashcards, and quizzes. The application features a user-friendly interface with responsive design, ensuring accessibility on various devices.",
+      technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Prisma"],
+      demoUrl: "https://study-quest-woad.vercel.app/",
+      sourceUrl: "https://github.com/CodeArmour/study-quest",
+      image: "/images/studyquest.png",
+      date: "2024-04-01",
     },
   ],
   skills: {
